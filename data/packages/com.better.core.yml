@@ -1,0 +1,17 @@
+name: com.better.core
+displayName: Better Core
+description: Base package for Better Plugins
+repoUrl: https://github.com/better-plugins/better-core
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - editor-enhancement
+  - utilities
+hunter: better-plugins
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: release:README.md
+createdAt: 1771967721723
