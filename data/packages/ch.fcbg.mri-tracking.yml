@@ -5,8 +5,8 @@ description: >-
   entry animation support.
 repoUrl: https://github.com/fcbg-platforms/2026-int-mri-tracking
 parentRepoUrl: null
-licenseSpdxId: ''
-licenseName: MPL-2.0
+licenseSpdxId: MPL-2.0
+licenseName: Mozilla Public License 2.0
 image: ''
 topics:
   - camera
