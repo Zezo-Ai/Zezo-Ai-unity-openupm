@@ -1,0 +1,16 @@
+name: jp.nobnak.trt
+displayName: URP Transparent Ray Tracer
+description: "URP å\x90\x91ã\x81\x91ã\x83¬ã\x82¤ã\x83\x88ã\x83¬ã\x83¼ã\x82·ã\x83³ã\x82°ï¼\x88å\x8D\x8Aé\x80\x8Fæ\x98\x8Eå¯¾å¿\x9Cï¼\x89ã\x80\x82RayTracingRendererFeature ã\x81¨ RTAS ç®¡ç\x90\x86ã\x81§ã\x82«ã\x83¡ã\x83©ã\x81« RT ã\x82\x92å\x90\x88æ\x88\x90ã\x81\x99ã\x82\x8Bã\x80\x82"
+repoUrl: https://github.com/nobnak/urp-TransparentRayTracer
+parentRepoUrl: null
+licenseSpdxId: MIT
+licenseName: MIT License
+image: ''
+topics:
+  - camera
+hunter: nobnak
+gitTagPrefix: ''
+gitTagIgnore: ''
+minVersion: ''
+readme: main:README.md
+createdAt: 1772350944912
