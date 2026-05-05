@@ -20,3 +20,12 @@ or run only the validation target:
 ```bash
 npm run test:data
 ```
+
+## Production data deploy
+
+Pushes to `master` run data validation in GitHub Actions. After validation
+passes, CI triggers the `openupm/openupm-next` website workflow and updates the
+production data checkout through a restricted SSH deploy hook.
+
+The server-side hook and production deployment path are managed outside this
+public data repository.
