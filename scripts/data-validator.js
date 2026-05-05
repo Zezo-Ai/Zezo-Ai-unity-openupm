@@ -10,22 +10,22 @@ const packagesDir = path.resolve(dataDir, "packages");
 
 const loadTopics = async function() {
   const absPath = path.resolve(dataDir, "topics.yml");
-  return yaml.safeLoad(await fs.promises.readFile(absPath, "utf8")).topics;
+  return yaml.load(await fs.promises.readFile(absPath, "utf8")).topics;
 };
 
 const loadTopicsSync = function() {
   const absPath = path.resolve(dataDir, "topics.yml");
-  return yaml.safeLoad(fs.readFileSync(absPath, "utf8")).topics;
+  return yaml.load(fs.readFileSync(absPath, "utf8")).topics;
 };
 
 const loadBlockedScopes = async function() {
   const absPath = path.resolve(dataDir, "blocked-scopes.yml");
-  return yaml.safeLoad(await fs.promises.readFile(absPath, "utf8")).scopes;
+  return yaml.load(await fs.promises.readFile(absPath, "utf8")).scopes;
 };
 
 const loadBlockedScopesSync = function() {
   const absPath = path.resolve(dataDir, "blocked-scopes.yml");
-  return yaml.safeLoad(fs.readFileSync(absPath, "utf8")).scopes;
+  return yaml.load(fs.readFileSync(absPath, "utf8")).scopes;
 };
 
 const loadPackageNames = async function(options) {
@@ -72,7 +72,7 @@ const loadPackageNamesSync = function(options) {
 
 const loadPackageSync = function(name) {
   const absPath = path.resolve(packagesDir, name + ".yml");
-  const doc = yaml.safeLoad(fs.readFileSync(absPath, "utf8"));
+  const doc = yaml.load(fs.readFileSync(absPath, "utf8"));
   return preparePackage(doc);
 };
 

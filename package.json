@@ -10,19 +10,13 @@
   "repository": "https://github.com/openupm/openupm.git",
   "scripts": {
     "test": "npm run test:data",
-    "test:data": "cross-env NODE_ENV=test mocha test/data-packages.js"
+    "test:data": "NODE_ENV=test node --test test/data-packages.js"
   },
   "license": "BSD 3-Clause",
-  "devDependencies": {
-    "cross-env": "^7.0.0",
-    "mocha": "^7.0.1",
-    "should": "^13.2.3"
-  },
   "dependencies": {
-    "js-yaml": "^3.13.1",
-    "lodash": "^4.17.21",
-    "parse-github-url": "^1.0.2",
-    "spdx-license-list": "^6.6.0"
+    "js-yaml": "^4.1.1",
+    "parse-github-url": "^1.0.4",
+    "spdx-license-list": "^6.11.0"
   },
   "volta": {
     "node": "22.19.0"
